@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+#header {
+    /* padding: 10px; */
+    background-color: #ffffff;
+    min-height: 100px;
+        }
+
+.logo {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#menu-header {
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+}        
+
+.menuitem {
+    min-height: 100px;
+    margin: 0;
+    padding: 0;            
+}
+
+.menuitem a {         /* clickable area */
+     width: 100%;    
+     text-decoration: none; /*remove underscore */
+     color: #484C4F;
+     font-size: 18px;
+     height: 100px;
+     text-align:center;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 26px;
+}
+
+#menu-call-to-action {
+    background-color: #484C4F;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-menu-color-home {
+    background-color: #e91529;  
+}
+
+.ul-menu-color-lessons {
+    background-color: #e9d515;  /* https://www.colorhexa.com/e9d515 */ 
+}
+
+.ul-menu-color-practical {
+    background-color: #e91529;
+}
+
+.ul-menu-color-testimonials {
+    background-color: #e9d515;
+}
+
+.btn {
+    background-color: #e9d515;
+    color: #e91529;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  #menu-call-to-action { display: none; }  /* don't show it on small screens */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1800px) {
+  #my-content { display: block; }   /* show it */
+}
+
+@media screen and (max-width:767px) {                                                       
+    .ul-menu-color-practical {
+        background-color: #e9d515;
+    }
+}
+
+@media screen and (max-width:767px) {                                                       
+    .ul-menu-color-testimonials {
+        background-color: #e91529;
+    }
+}
