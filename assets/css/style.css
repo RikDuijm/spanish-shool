@@ -31,6 +31,7 @@
      font-size: 18px;
      height: 100px;
      text-align:center;
+     display: block;
 }
 
 .menuitem a i {
@@ -38,6 +39,17 @@
     padding-bottom: 5px;
     display: block;
     font-size: 26px;
+}
+
+
+#menu-icon-yellow:hover {
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+} 
+
+#menu-icon-red:hover{
+  color: #e9d515;
+  transition: 0.8s ease-in-out;
 }
 
 #menu-call-to-action {
@@ -74,8 +86,8 @@
   #menu-call-to-action { display: none; }  /* don't show it on small screens */
 }
 
-@media screen and (min-width: 992px) and (max-width: 1800px) {
-  #my-content { display: block; }   /* show it */
+@media screen and (min-width: 992px) and (max-width: 2500px) {
+  #section-call-to-action { display: none; }   
 }
 
 @media screen and (max-width:767px) {                                                       
@@ -88,4 +100,65 @@
     .ul-menu-color-testimonials {
         background-color: #e91529;
     }
+}
+
+
+/* ----------------------------------------------------------- Footer */
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  #footer-tablet { display: none; }   
+}
+
+@media screen and (min-width: 992px) and (max-width: 2500px) {
+  #footer-tablet { display: none; }   
+}
+
+
+#footer-red {
+    background-color: #e91529;
+    height: 160px;
+    width: 50%;
+    padding: 15px;
+    margin: 0;
+    border: 0;
+}
+
+#footer-yellow {
+    background-color: #e9d515;   
+    height: 160px;
+    width: 50%;
+    padding: 15px;
+    margin: 0;
+    border: 0;
+}
+
+#general-footer-row {
+    background-color: #484C4F; 
+    min-height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.general-footer-text{
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e91529;
+    text-transform: uppercase;
+}
+
+.social-media i {
+    font-size: 30px; 
+    color: #e9d515;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social-media i:hover {
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+  
 }
