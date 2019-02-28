@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 #header {
-    /* padding: 10px; */
+    padding: 10px; 
     background-color: #ffffff;
     min-height: 100px;
+
         }
 
 .logo {
@@ -18,10 +20,13 @@
     padding: 0;
 }        
 
+#nav {
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
 .menuitem {
     min-height: 100px;
-    margin: 0;
-    padding: 0;            
 }
 
 .menuitem a {         /* clickable area */
@@ -55,8 +60,6 @@
 #menu-call-to-action {
     background-color: #484C4F;
     min-height: 100px;
-    margin: 0;
-    padding: 0;
 }
 
 .ul-menu-color-home {
@@ -86,9 +89,6 @@
   #menu-call-to-action { display: none; }  /* don't show it on small screens */
 }
 
-@media screen and (min-width: 992px) and (max-width: 2500px) {
-  #section-call-to-action { display: none; }   
-}
 
 @media screen and (max-width:767px) {                                                       
     .ul-menu-color-practical {
@@ -111,7 +111,7 @@
   #footer-tablet { display: none; }   
 }
 
-@media screen and (min-width: 992px) and (max-width: 2500px) {
+@media screen and (min-width: 1200px)  {
   #footer-tablet { display: none; }   
 }
 
@@ -135,10 +135,11 @@
 }
 
 #general-footer-row {
-    background-color: #484C4F; 
+    background-color: #fafafa; 
     min-height: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
+    border-top: 2px solid #484C4F;
 }
 
 .general-footer-text{
@@ -161,4 +162,83 @@
   color: #e91529;
   transition: 0.8s ease-in-out;
   
+}
+
+/* ----------------------------------------------------------- Body */
+
+section {
+    margin: 0;
+    alginment: top;
+}
+
+.row-table {
+    display: table;   /* To ensure that the columns will remain equal height, regardless of their content. */
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+    
+.section-column {
+    padding: 0 30px ; 
+    float: none;
+    display: table-cell;  /* table cell within the column, that gives evenly sized columns in terms of height */ 
+    }     
+
+#main{
+    background-color: white;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    border: 0;
+} 
+
+.row-table {
+    margin-top: 0;
+}
+
+
+#spanish-school-image-xs {
+    min-height: 180px;
+}
+
+.spanish-school-image-xs {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#spanish-school-text-xs {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+.spanish-school-image {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+#spanish-school-text {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+
+#sidebar {
+    background-color: #484C4F; 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    padding-right: 20px;
+    border: 0;
 }
