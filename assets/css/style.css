@@ -47,15 +47,39 @@
 }
 
 
-#menu-icon-yellow:hover {
+#menu-icon-yellow-big:hover {
   color: #e91529;
   transition: 0.8s ease-in-out;
 } 
 
-#menu-icon-red:hover{
+#menu-icon-red-big:hover{
   color: #e9d515;
   transition: 0.8s ease-in-out;
 }
+
+#menu-icon-yellow-small-1:hover {
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+} 
+
+#menu-icon-red-small-1:hover{
+  color: #e9d515;
+  transition: 0.8s ease-in-out;
+}
+
+#menu-icon-yellow-small-2:hover {
+  color: #e9d515;
+  transition: 0.8s ease-in-out;
+} 
+
+#menu-icon-red-small-2:hover{
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+}
+
+
+
+
 
 #menu-call-to-action {
     background-color: #484C4F;
