@@ -2,15 +2,11 @@
 
 
 #header {
-    padding: 10px; 
-    background-color: #ffffff;
     min-height: 100px;
-
-        }
+}
 
 .logo {
-  display: block;
-  margin-left: 10%;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -18,7 +14,11 @@
     min-height: 100px;
     margin: 0;
     padding: 0;
-}        
+}   
+
+.container-fluid {
+    padding-right: 0;
+}
 
 #nav {
     margin-bottom: 0px;
@@ -192,36 +192,34 @@
 
 section {
     margin: 0;
-    alginment: top;
+    alginment: ;
+  
 }
 
 .row-table {
     display: table;   /* To ensure that the columns will remain equal height, regardless of their content. */
+    margin: 0;
 }
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
-    
+
+
 .section-column {
     padding: 0 30px ; 
     float: none;
-    display: table-cell;  /* table cell within the column, that gives evenly sized columns in terms of height */ 
+    display: table-cell;  
     }     
+/*    table cell within the column, that gives evenly sized columns in terms of height */ 
 
-#main{
-    background-color: white;
-    margin: 0;
-    padding-left: 30px;
+#main {
     padding-right: 0;
     padding-bottom: 30px;
-    border: 0;
-} 
-
-.row-table {
-    margin-top: 0;
 }
+
+
 
 
 #spanish-school-image-xs {
@@ -229,9 +227,8 @@ section {
 }
 
 .spanish-school-image-xs {
-    position: absolute;
-    top: 30px;
-    left: 50px;
+    margin: 0 24%;
+    margin-top: 20px;
 }
 
 #spanish-school-text-xs {
@@ -241,12 +238,6 @@ section {
     padding-left: 0px;
 }
 
-
-.spanish-school-image {
-    position: absolute;
-    top: 50px;
-    right: 10px;
-}
 
 #spanish-school-text {
     padding-top: 30px;
@@ -263,6 +254,27 @@ section {
     font-weight: 300;
     color: #ffffff;
     margin: 0;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
     border: 0;
+}
+
+.where {
+  margin-top: 1.5em;
+  color: #e91529;    
+}
+
+.when {
+  margin-top: 1.5em;
+  color: #e9d515;
+}
+
+.groups {
+  margin-top: 1.5em;
+  color: #e91529;    
+}
+
+.prices {
+  margin-top: 1.5em;
+  color: #e9d515;    
 }
