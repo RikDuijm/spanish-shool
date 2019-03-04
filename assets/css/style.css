@@ -16,9 +16,6 @@
     padding: 0;
 }   
 
-.container-fluid {
-    padding-right: 0;
-}
 
 #nav {
     margin-bottom: 0px;
@@ -192,8 +189,7 @@
 
 section {
     margin: 0;
-    alginment: ;
-  
+
 }
 
 .row-table {
@@ -220,13 +216,36 @@ section {
 }
 
 
-
-
-#spanish-school-image-xs {
-    min-height: 180px;
+.trial-lesson {
+    text-decoration: none;
+    text-align: center;
+    color: #484C4F;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.spanish-school-image-xs {
+.trial-lesson:hover {
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+} 
+
+.lessons-xs {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+.teacher-xs {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+.material-xs {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+.testimonials-xs {
     margin: 0 24%;
     margin-top: 20px;
 }
@@ -277,4 +296,33 @@ section {
 .prices {
   margin-top: 1.5em;
   color: #e9d515;    
+}
+
+/* ----------------------------------------------------------- Contact */
+
+#contact-text {
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.contact-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F;
+
+}
+.form {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 8%;
+    margin-right: 30%;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ----------------------------------------------------------- Contact */
+.video {
+    padding-bottom: 20px;
 }
