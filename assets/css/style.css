@@ -230,10 +230,10 @@ section {
   transition: 0.8s ease-in-out;
 } 
 
-.lessons-xs {
+/*.lessons-xs {
     margin: 0 24%;
     margin-top: 20px;
-}
+}*/
 
 .teacher-xs {
     margin: 0 24%;
@@ -250,12 +250,22 @@ section {
     margin-top: 20px;
 }
 
-#spanish-school-text-xs {
+#section-text-xs {
     padding-top: 10px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
 }
+
+#section-text-xs a {
+    text-decoration: none; /*remove underscore */
+     color: #484C4F;
+}     
+
+/* #spanish-school-text-xs:hover {
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+} */
 
 
 #spanish-school-text {
@@ -298,6 +308,14 @@ section {
   color: #e9d515;    
 }
 
+        /*-------------------------------------*/
+        .spanish-school-image {
+            margin: 0 24%;
+            margin-top: 20px;
+        }
+        
+        
+        
 /* ----------------------------------------------------------- Contact */
 
 #contact-text {
@@ -322,7 +340,16 @@ section {
     font-weight: 400;
 }
 
-/* ----------------------------------------------------------- Contact */
-.video {
-    padding-bottom: 20px;
+/* ----------------------------------------------------------- Spaanse lessen */
+.audio {
+    width: 80vw;
 }
+
+a .thumbnail{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+    
+}
+
