@@ -189,32 +189,49 @@
 
 section {
     margin: 0;
+    padding: 0;
 
 }
 
-.row-table {
-    display: table;   /* To ensure that the columns will remain equal height, regardless of their content. */
-    margin: 0;
+/*without this there is empty space on left and right margin - it moves button out of center though*/
+.container-fluid { 
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
-.no-gutters {
+/* this deletes the space in the md-8 sidebar */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+/*.no-gutters {
   margin-right: 0;
   margin-left: 0;
-}
+} */
 
 
 .section-column {
-    padding: 0 30px ; 
+    padding: 0; 
     float: none;
     display: table-cell;  
     }     
 /*    table cell within the column, that gives evenly sized columns in terms of height */ 
 
 #main {
-    padding-right: 0;
+    padding-right: 0; /* padding right makes right scroll in iPhone5 */
     padding-bottom: 30px;
 }
 
+#section-call-to-action {
+    position: absolute;
+    padding-bottom: 70px;
+    /*z-index: 1;*/
+}
 
 .trial-lesson {
     text-decoration: none;
@@ -230,14 +247,38 @@ section {
   transition: 0.8s ease-in-out;
 } 
 
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  .spaans-leren {
+    margin-top: 75px; }
+}
+
+@media screen and (max-width: 767px) {
 .lessons-xs {
     margin: 0 24%;
-    margin-top: 20px;
+    margin-top: 20px; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .lessons-xs {
+      margin: 0 24%;
+      margin-top: 85px; }
+    
+}
+@media screen and (min-width: 992px) {
+  .lessons-xs {
+    margin: 0 24%;
+    margin-top: 30px; }
 }
 
 .teacher-xs {
     margin: 0 24%;
     margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .teacher-xs {
+    margin: 0 24%;
+    margin-top: 35px; }
 }
 
 .material-xs {
@@ -248,6 +289,7 @@ section {
 .testimonials-xs {
     margin: 0 24%;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #section-text-xs {
@@ -255,6 +297,7 @@ section {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+    z-index: 2;
 }
 
 #section-text-xs a {
@@ -282,32 +325,48 @@ section {
     font-size: 14px;
     font-weight: 300;
     color: #ffffff;
-    margin: 0;
+    margin-right: 0;
     padding-left: 5px;
     padding-right: 10px;
+    min-height: 20px;
     border: 0;
 }
 
-.where {
+.where-h3 {
   margin-top: 1.5em;
   color: #e91529;    
 }
 
-.when {
+.where-text {
+    padding-left: 35px;
+}
+
+.when-h3 {
   margin-top: 1.5em;
   color: #e9d515;
 }
 
-.groups {
+.when-text {
+    padding-left: 35px;
+}
+
+.groups-h3 {
   margin-top: 1.5em;
   color: #e91529;    
 }
 
-.prices {
+.groups-text {
+    padding-left: 35px;
+}
+
+.prices-h3 {
   margin-top: 1.5em;
   color: #e9d515;    
 }
 
+.prices-text {
+    padding-left: 35px;
+}
         /*-------------------------------------*/
         .spanish-school-image {
             margin: 0 24%;
@@ -342,9 +401,15 @@ section {
 
 /* ----------------------------------------------------------- Spaanse lessen */
 
-.spaanse-lessen-h2 {
-    padding-top: 20px;
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  .spaanse-lessen {
+    margin-top: 75px; }
 }
+
+/* .spaanse-lessen-h2 {
+    padding-top: 20px;
+} */
 
 .spaanse-lessen-h3 {
     padding-top: 20px;
@@ -360,10 +425,15 @@ section {
 
 .video {
     padding-top: 10px;
+    width: 250px; 
+    height: 250px;
 }
 .audio {
-    width: 80vw;
+    width: 250px;
+    display: table;
+    margin: 0 auto;
 }
+    
 
 a .thumbnail{
     margin-left: auto;
