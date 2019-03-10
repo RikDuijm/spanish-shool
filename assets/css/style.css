@@ -229,8 +229,7 @@ section {
 
 #section-call-to-action {
     position: absolute;
-    padding-bottom: 70px;
-    /*z-index: 1;*/
+    z-index: 1;
 }
 
 .trial-lesson {
@@ -297,7 +296,6 @@ section {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    z-index: 2;
 }
 
 #section-text-xs a {
@@ -405,11 +403,11 @@ section {
 @media screen and (min-width: 0px) and (max-width: 991px) {
   .spaanse-lessen {
     margin-top: 75px; }
-}
+    }
 
-/* .spaanse-lessen-h2 {
-    padding-top: 20px;
-} */
+.spaanse-lessen-h2 {
+    margin-top: 20px;
+} 
 
 .onze-leraren-h3 {
      padding-top: 0px;
@@ -445,7 +443,7 @@ section {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .audio {
     width: 250px;
     display: table;
