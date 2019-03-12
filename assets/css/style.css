@@ -246,9 +246,13 @@ section {
   transition: 0.8s ease-in-out;
 } 
 
-@media screen and (min-width: 0px) and (max-width: 991px) {
-  .spaans-leren {
+ .spaans-leren {
+     padding-left: 20px;
+     
     margin-top: 75px; }
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+     
 }
 
 @media screen and (max-width: 767px) {
