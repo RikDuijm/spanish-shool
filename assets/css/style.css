@@ -74,10 +74,6 @@
   transition: 0.8s ease-in-out;
 }
 
-
-
-
-
 #menu-call-to-action {
     background-color: #484C4F;
     min-height: 100px;
@@ -92,11 +88,11 @@
 }
 
 .ul-menu-color-practical {
-    background-color: #e91529;
+    background-color: #e9d515;
 }
 
 .ul-menu-color-testimonials {
-    background-color: #e9d515;
+    background-color: #e91529;
 }
 
 .btn {
@@ -106,36 +102,20 @@
     margin-top: 25px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 991px) {
-  #menu-call-to-action { display: none; }  /* don't show it on small screens */
-}
-
-
-@media screen and (max-width:767px) {                                                       
+@media screen and (min-width:768px) {                                                       
     .ul-menu-color-practical {
-        background-color: #e9d515;
+        background-color: #e91529;
     }
 }
 
-@media screen and (max-width:767px) {                                                       
+@media screen and (min-width:768px) {                                                       
     .ul-menu-color-testimonials {
-        background-color: #e91529;
+        background-color: #e9d515;  
     }
 }
 
 
 /* ----------------------------------------------------------- Footer */
-
-
-
-@media screen and (min-width: 0px) and (max-width: 767px) {
-  #footer-tablet { display: none; }   
-}
-
-@media screen and (min-width: 1200px)  {
-  #footer-tablet { display: none; }   
-}
-
 
 #footer-red {
     background-color: #e91529;
@@ -208,12 +188,10 @@ section {
 }
 
 
-
 /*.no-gutters {
   margin-right: 0;
   margin-left: 0;
 } */
-
 
 .section-column {
     padding: 0; 
@@ -246,31 +224,47 @@ section {
   transition: 0.8s ease-in-out;
 } 
 
- .spaans-leren {
-     padding-left: 20px;
-     
-    margin-top: 75px; }
-
-@media screen and (min-width: 0px) and (max-width: 991px) {
-     
+.spaans-leren {
+    padding-left: 45px;
+    margin: auto;
+    max-width: 550px;
+    margin-top: 75px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
+  .spaans-leren {
+    margin-left: 80px;
+    max-width: 380px;
+    margin-top: 75px; }   
+}
+
+.spaans-leren a {
+    text-decoration: none; /*remove underscore */
+     color: #484C4F;
+}     
+
+
+@media screen and (min-width: 992px) {
+  .spaans-leren {
+    padding-left: 20px;
+    margin-top: 5px; }   
+}
+
 .lessons-xs {
     margin: 0 24%;
-    margin-top: 20px; }
+    margin-top: 20px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
     .lessons-xs {
       margin: 0 24%;
       margin-top: 85px; }
-    
 }
+
 @media screen and (min-width: 992px) {
   .lessons-xs {
     margin: 0 24%;
-    margin-top: 30px; }
+    margin-top: 33px; }
 }
 
 .teacher-xs {
@@ -369,6 +363,7 @@ section {
 .prices-text {
     padding-left: 35px;
 }
+
         /*-------------------------------------*/
         .spanish-school-image {
             margin: 0 24%;
@@ -403,11 +398,14 @@ section {
 
 /* ----------------------------------------------------------- Spaanse lessen */
 
+.spaanse-lessen {
+    margin-top: 75px;
+}
 
-@media screen and (min-width: 0px) and (max-width: 991px) {
+@media screen and (min-width: 992px) {
   .spaanse-lessen {
-    margin-top: 75px; }
-    }
+    margin-top: 5px; }
+}
 
 .spaanse-lessen-h2 {
     margin-top: 20px;
@@ -437,8 +435,8 @@ section {
 
 .video {
     padding-top: 20px;
-    width: 250px; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
 }
 
 .audio {
