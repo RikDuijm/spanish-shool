@@ -224,7 +224,19 @@ section {
   transition: 0.8s ease-in-out;
 } 
 
-.spaans-leren {
+.text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F; 
+}
+
+.index-text a {
+    text-decoration: none; /*remove underscore */
+     color: #484C4F;
+}     
+
+.index-text-top {
     padding-left: 45px;
     margin: auto;
     max-width: 550px;
@@ -232,23 +244,54 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  .spaans-leren {
+  .index-text-top {
     margin-left: 80px;
     max-width: 380px;
-    margin-top: 75px; }   
+    margin-top: 65px; }   
 }
-
-.spaans-leren a {
-    text-decoration: none; /*remove underscore */
-     color: #484C4F;
-}     
-
 
 @media screen and (min-width: 992px) {
-  .spaans-leren {
-    padding-left: 20px;
-    margin-top: 5px; }   
+  .index-text-top {
+    margin-top: 15px; }   
 }
+
+@media screen and (min-width: 1200px) {
+    .index-text-top {
+      margin-left: 150px;
+      max-width: 450px;
+      margin-top: 15px; 
+    }   
+}
+
+.index-text {
+    padding-left: 45px;
+    margin: auto;
+    max-width: 550px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .index-text {
+    margin-left: 80px;
+    max-width: 380px;
+    margin-top: 15px; }   
+}
+
+@media screen and (min-width: 992px) {
+  .index-text {
+    margin-top: 15px; }   
+}
+
+@media screen and (min-width: 1200px) {
+    .index-text {
+      margin-left: 150px;
+      max-width: 450px;
+      margin-top: 15px; 
+    }   
+}
+
+
+
 
 .lessons-xs {
     margin: 0 24%;
