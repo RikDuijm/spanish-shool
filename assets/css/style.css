@@ -291,45 +291,40 @@ section {
 }
 
 
-.lessons-xs {
+.picture-top {
     margin: 0 24%;
     margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .lessons-xs {
+    .picture-top {
       margin: 0 24%;
       margin-top: 85px; }
 }
 
 @media screen and (min-width: 992px) {
-  .lessons-xs {
+  .picture-top {
     margin: 0 24%;
     margin-top: 33px; }
 }
 
-.teacher-xs {
+.picture-middle {
     margin: 0 24%;
     margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .teacher-xs {
+  .picture-middle {
     margin: 0 24%;
     margin-top: 35px; }
 }
 
-.material-xs {
-    margin: 0 24%;
-    margin-top: 20px;
-}
 
-.testimonials-xs {
+.picture-bottom {
     margin: 0 24%;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
 
 
 #spanish-school-text {
@@ -424,7 +419,7 @@ section {
 /* ----------------------------------------------------------- Spaanse lessen */
 
 .spaanse-lessen-text-top {
-    padding-left: 45px;
+    padding-left: 30px;
     margin: auto;
     margin-top: 75px;
 }
@@ -443,7 +438,7 @@ section {
 }
 
 .spaanse-lessen-text {
-    padding-left: 45px;
+    padding-left: 30px;
     margin: auto;
     max-width: 550px;
     margin-top: 10px;
@@ -490,7 +485,7 @@ section {
 }
 
 .lesboeken-text {
-    padding-left: 45px;
+    padding-left: 30px;
     margin: auto;
     max-width: 550px;
     margin-top: 10px;
@@ -514,41 +509,6 @@ section {
     margin-left: 120px; }
 }
 
-
-/*
-@media screen and (min-width: 992px) {
-  .index-text {
-    margin-top: 15px; }   
-}
-
-
-
-*/
-
-/*    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-
-#section-text-xs a {
-    text-decoration: none; 
-     color: #484C4F;
-} */    
-
-/* #spanish-school-text-xs:hover {
-  color: #e91529;
-  transition: 0.8s ease-in-out;
-} */
-
-
-
-
-/*.spaanse-lessen-h3 {
-    padding-top: 20px;
-}*/
-
-
 .audio {
     width: 250px;
     display: table;
@@ -569,3 +529,106 @@ a .thumbnail{
     padding: 0;
 }
 
+/* ----------------------------------------------------------- Praktische Informatie */
+
+.praktisch-nav {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 85px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F; 
+}
+
+@media screen and (min-width: 992px) {
+  .praktisch-nav {
+       margin-top: 20px; }
+}
+
+.praktisch-text-top {
+    padding-left: 30px;
+    padding-right: 20px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #484C4F; 
+}
+
+.praktisch-text {
+    padding-left: 30px;
+    padding-right: 20px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F; 
+}
+
+.map {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 240px; 
+    height: 180px;
+}
+
+@media screen and (min-width: 768px) {
+    .map {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+ }
+}
+
+.location {
+    margin-top: 20px;
+    width: 240px;
+    height: 180px;
+}
+
+@media screen and (min-width: 768px) {
+    .location {
+    margin-top: 20px;
+    margin-left: 40px;
+ }
+}
+
+    
+/* ----------------------------------------------------------- Aanbevelingen */
+
+.aanbevelingen-top {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 85px;
+}
+
+@media screen and (min-width: 992px) {
+  .aanbevelingen-top {
+       margin-top: 20px; }
+}
+
+.aanbevelingen-middle {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.picture-aanbevelingen-top {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+.picture-aanbevelingen-bottom {
+    margin: 0 24%;
+    margin-bottom: 20px;
+}
+
+.blockquote {
+    padding: 0 20px;
+    margin: 0 0 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F; 
+}
