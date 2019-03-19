@@ -523,6 +523,11 @@ section {
 }
 
 
+.link-memrise {
+    display: table;
+    margin: 50px 18px;
+}
+
 a .thumbnail{
     margin-left: auto;
     margin-right: auto;
