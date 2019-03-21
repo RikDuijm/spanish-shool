@@ -22,7 +22,6 @@ In the same way as with the audio and video that we have now used, we can create
 I actually don’t like the presentation of our lesson material. I would prefer to have a pop-up opening with the bigger images instead of opening a blank page, but since this is created with Java I didn’t learn how to do this yet. I would change this asap. 
 
 ## Technologies used
-I actually don’t like the presentation of our lesson material. I would prefer to have a pop-up opening with the bigger images
 - HTML5
 - CSS3
 - Bootstrap 3.3.7
@@ -59,6 +58,8 @@ Website was coded in Cloud 9 IDE, and then uploaded to GITHUB using Ubuntu / Bas
 All content on this website was written by me, obviously except for the client testimonials. 
 
 ### Media
-All photos were taken by me, again except for the photos the clients send me with their testimonials. Audio and video files we're created by me. Presented lesson material by me and my wife. 
-The logotype we inherited from the former owner of the Spanish School. Same for the commercial name, that we are planning to change by the way.
+- All photos were taken by me, again except for the photos the clients send me with their testimonials. 
+- Audio and video files we're created by me. 
+- Presented lesson material by me and my wife. 
+- The logotype we inherited from the former owner of the Spanish School. Same for the commercial name, that we are planning to change by the way.
 
