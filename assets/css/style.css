@@ -188,15 +188,15 @@ section {
 }
 
 
-/*.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-} */
+.row-table {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
 .section-column {
     padding: 0; 
+    display: table-cell; 
     float: none;
-    display: table-cell;  
     }     
 /*    table cell within the column, that gives evenly sized columns in terms of height */ 
 
@@ -219,7 +219,8 @@ section {
     font-weight: 500;
 }
 
-.trial-lesson:hover {
+.trial-lesson:hover { 
+  text-decoration: none;
   color: #e91529;
   transition: 0.8s ease-in-out;
 } 
@@ -344,44 +345,47 @@ section {
     margin-right: 0;
     padding-left: 5px;
     padding-right: 10px;
-    min-height: 20px;
     border: 0;
 }
 
 .where-h3 {
-  margin-top: 1.5em;
-  color: #e91529;    
+  margin-top: 10px;
+  color: #e91529;
+  padding-left: 10px; 
 }
 
 .where-text {
-    padding-left: 35px;
+    padding-left: 45px;
 }
 
 .when-h3 {
   margin-top: 1.5em;
   color: #e9d515;
+  padding-left: 10px;
 }
 
 .when-text {
-    padding-left: 35px;
+    padding-left: 45px;
 }
 
 .groups-h3 {
   margin-top: 1.5em;
-  color: #e91529;    
+  color: #e91529;   
+  padding-left: 10px;
 }
 
 .groups-text {
-    padding-left: 35px;
+    padding-left: 45px;
 }
 
 .prices-h3 {
   margin-top: 1.5em;
-  color: #e9d515;    
+  color: #e9d515;   
+  padding-left: 10px;
 }
 
 .prices-text {
-    padding-left: 35px;
+    padding-left: 45px;
 }
 
         /*-------------------------------------*/
@@ -548,7 +552,7 @@ a .thumbnail{
 
 @media screen and (min-width: 992px) {
   .praktisch-nav {
-       margin-top: 20px; }
+       margin-top: 0px; }
 }
 
 .praktisch-text-top {
@@ -636,4 +640,35 @@ a .thumbnail{
     font-size: 14px;
     font-weight: 400;
     color: #484C4F; 
+}
+
+
+/* ----------------------------------------------------------- Test */
+
+.free-lesson {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+.free-lesson {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: #484C4F;
+    font-size: 18px;
+    font-weight: 700; } 
+} 
+
+.fa-gift {
+    display: table;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+}
+
+.free-lesson:hover {
+  color: #e91529;
+  transition: 0.4s ease-in-out;
+  
 }
