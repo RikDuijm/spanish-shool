@@ -102,17 +102,6 @@
     margin-top: 25px;
 }
 
-@media screen and (min-width:768px) {                                                       
-    .ul-menu-color-practical {
-        background-color: #e91529;
-    }
-}
-
-@media screen and (min-width:768px) {                                                       
-    .ul-menu-color-testimonials {
-        background-color: #e9d515;  
-    }
-}
 
 
 /* ----------------------------------------------------------- Footer */
@@ -244,25 +233,6 @@ section {
     margin-top: 75px;
 }
 
-@media screen and (min-width: 768px) {
-  .index-text-top {
-    margin-left: 80px;
-    max-width: 380px;
-    margin-top: 65px; }   
-}
-
-@media screen and (min-width: 992px) {
-  .index-text-top {
-    margin-top: 15px; }   
-}
-
-@media screen and (min-width: 1200px) {
-    .index-text-top {
-      margin-left: 150px;
-      max-width: 450px;
-      margin-top: 15px; 
-    }   
-}
 
 .index-text {
     padding-left: 45px;
@@ -271,53 +241,15 @@ section {
     margin-top: 15px;
 }
 
-@media screen and (min-width: 768px) {
-  .index-text {
-    margin-left: 80px;
-    max-width: 380px;
-    margin-top: 15px; }   
-}
-
-@media screen and (min-width: 992px) {
-  .index-text {
-    margin-top: 15px; }   
-}
-
-@media screen and (min-width: 1200px) {
-    .index-text {
-      margin-left: 150px;
-      max-width: 450px;
-      margin-top: 15px; 
-    }   
-}
-
 
 .picture-top {
     margin: 0 24%;
     margin-top: 20px;
 }
 
-@media screen and (min-width: 768px) {
-    .picture-top {
-      margin: 0 24%;
-      margin-top: 85px; }
-}
-
-@media screen and (min-width: 992px) {
-  .picture-top {
-    margin: 0 24%;
-    margin-top: 33px; }
-}
-
 .picture-middle {
     margin: 0 24%;
     margin-top: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .picture-middle {
-    margin: 0 24%;
-    margin-top: 35px; }
 }
 
 
@@ -428,11 +360,6 @@ section {
     margin-top: 75px;
 }
 
-@media screen and (min-width: 992px) {
-  .spaanse-lessen-text-top {
-    margin-top: 5px; }
-}
-
 .spaanse-lessen-slogan {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -448,19 +375,6 @@ section {
     margin-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .spaanse-lessen-text {
-    margin-left: 80px;
-    max-width: 380px;
-    margin-top: 15px; }   
-}
-
-@media screen and (min-width: 1200px) {
-    .spaanse-lessen-text {
-      max-width: 450px;
-      margin-top: 15px; 
-    }   
-}
 
 .ons-lesmateriaal-h3 {
      margin-top: 20px;
@@ -472,13 +386,6 @@ section {
     height: 200px;
 }
 
-@media screen and (min-width: 768px) {
-    .video {
-    margin-top: 20px;
-    margin-left: 40px;
-    width: 200px; 
-    height: 200px; }
-}
 
 .spaanse-lessen-h4 {
     padding-top: 20px;
@@ -495,35 +402,15 @@ section {
     margin-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
-.lesboeken-text {
-    margin-left: 80px;
-    margin-right:25px;
-    max-width: fit-content;
-    margin-top: 15px; } 
-}
-
 .lesboeken {
     margin-left: 8%;
     margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-.lesboeken {
-    margin-left: 120px; }
 }
 
 .audio {
     width: 250px;
     display: table;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .audio {
-    width: 250px;
-    display: table;
-    margin-top: 65px; }
 }
 
 
@@ -550,10 +437,6 @@ a .thumbnail{
     color: #484C4F; 
 }
 
-@media screen and (min-width: 992px) {
-  .praktisch-nav {
-       margin-top: 0px; }
-}
 
 .praktisch-text-top {
     padding-left: 30px;
@@ -582,26 +465,12 @@ a .thumbnail{
     height: 180px;
 }
 
-@media screen and (min-width: 768px) {
-    .map {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
- }
-}
-
 .location {
     margin-top: 20px;
     width: 240px;
     height: 180px;
 }
 
-@media screen and (min-width: 768px) {
-    .location {
-    margin-top: 20px;
-    margin-left: 40px;
- }
-}
 
     
 /* ----------------------------------------------------------- Aanbevelingen */
@@ -610,11 +479,6 @@ a .thumbnail{
     padding-left: 15px;
     padding-right: 20px;
     margin-top: 85px;
-}
-
-@media screen and (min-width: 992px) {
-  .aanbevelingen-top {
-       margin-top: 20px; }
 }
 
 .aanbevelingen-middle {
@@ -649,16 +513,6 @@ a .thumbnail{
     display: none;
 }
 
-@media screen and (min-width: 992px) {
-.free-lesson {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    color: #484C4F;
-    font-size: 18px;
-    font-weight: 700; } 
-} 
-
 .fa-gift {
     display: table;
     margin-top: 20px;
@@ -672,3 +526,115 @@ a .thumbnail{
   transition: 0.4s ease-in-out;
   
 }
+
+
+/* ----------------------------------------------------------- Media Queries */
+
+@media screen and (min-width:768px) {                                                       
+    .ul-menu-color-practical {
+        background-color: #e91529;
+    }
+
+    .ul-menu-color-testimonials {
+        background-color: #e9d515;  
+    }
+
+    .index-text-top {
+         margin-left: 80px;
+         max-width: 380px;
+         margin-top: 65px; }   
+    
+    .index-text {
+        margin-left: 80px;
+        max-width: 380px;
+        margin-top: 15px; }   
+
+    .picture-top {
+      margin: 0 24%;
+      margin-top: 85px; }
+
+    .picture-middle {
+        margin: 0 24%;
+        margin-top: 35px; }
+
+    .video {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 200px; 
+        height: 200px; }
+
+    .lesboeken-text {
+        
+        margin-right:25px;
+        max-width: fit-content;
+        margin-top: 15px; } 
+
+    .lesboeken {
+        margin-left: 120px; }
+
+    .audio {
+        width: 250px;
+        display: table;
+        margin-top: 65px; }
+        
+/*    .praktisch-text-top {
+    padding-left: 50px; }
+
+    .praktisch-text {
+        padding-left: 50px; } */
+}
+
+@media screen and (min-width: 992px) {
+  .index-text-top {
+    margin-top: 15px; }   
+
+  .index-text {
+    margin-top: 15px; }   
+
+
+  .picture-top {
+    margin: 0 24%;
+    margin-top: 33px; }
+
+  .spaanse-lessen-text-top {
+    margin-top: 5px; }
+
+
+  .praktisch-nav {
+       margin-top: 0px; }
+
+  .aanbevelingen-top {
+       margin-top: 20px; }
+
+.free-lesson {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: #484C4F;
+    font-size: 18px;
+    font-weight: 700; } 
+} 
+
+
+@media screen and (min-width: 1200px) {
+    .index-text-top {
+      margin-left: 150px;
+      max-width: 450px;
+      margin-top: 15px; 
+    }   
+
+  .spaanse-lessen-text {
+    margin-left: 80px;
+    max-width: 450px;
+    margin-top: 15px; }   
+
+    .index-text {
+      margin-left: 150px;
+      max-width: 450px;
+      margin-top: 15px; 
+    }   
+}
+
+
+
+
