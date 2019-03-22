@@ -19,7 +19,7 @@ It would also be worth considering creating an online payment system for this. I
 
 In the same way as with the audio and video that we have now used, we can create listening exercises for the client. An extra service to the client would be the creation of online exercises, with for example multiple choice questions and in combination with pieces of grammatical explanation. This should only be accessible to paying customers. We already have these exercises, but we are currently linking to an external website on which we have placed them.
 
-I actually don’t like the presentation of our lesson material. I would prefer to have a pop-up opening with the bigger images instead of opening a blank page, but since this is created with Java I didn’t learn how to do this yet. I would change this asap. 
+I actually don’t like the presentation of our lesson material. I would prefer to have a pop-up opening with the bigger images instead of opening a blank page, but since this is created with Javascript I didn’t learn how to do this yet. I would change this asap. 
 
 ## Technologies used
 - HTML5
