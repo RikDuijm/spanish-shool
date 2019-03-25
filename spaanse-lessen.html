@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> <!-- icons in menu -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" /> <!-- hover over in menu, via cdnjs.com and http://ianlunn.github.io/Hover/ -->  
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 <body>
@@ -18,7 +17,7 @@
                 <div class="col-xs-12 hidden-sm hidden-md hidden-lg" id="menu-header">
                     <ul id="nav" class="list-inline clearfix"> <!-- provided by Bootstrap -->
                         <li class="col-xs-6 col-sm-3 ul-menu-color-home menuitem">
-                            <a href="index.html" class="icon" id="menu-icon-red-small-1"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            <a href="index.html" id="menu-icon-red-small-1"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ul-menu-color-lessons menuitem">
                             <a href="spaanse-lessen.html" id="menu-icon-yellow-small-1"><i class="fa fa-university" aria-hidden="true"></i><span>Spaanse lessen</span></a>
@@ -38,7 +37,7 @@
                 <div class="hidden-xs col-sm-12 col-md-8" id="menu-header">
                     <ul id="nav" class="list-inline clearfix"> <!-- provided by Bootstrap -->
                             <li class="col-sm-3 ul-menu-color-home menuitem">
-                                <a href="index.html" class="icon" id="menu-icon-red-big"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" id="menu-icon-red-big"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-sm-3 ul-menu-color-lessons menuitem">
                                 <a href="spaanse-lessen.html" id="menu-icon-yellow-big"><i class="fa fa-university" aria-hidden="true"></i><span>Spaanse lessen</span></a>
@@ -81,52 +80,56 @@
                     
                 <article class="row"> 
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 spaanse-lessen-text"> 
-                        <h3 class="onze-leraren-h3" id="onze-leraren">Onze leraren</h3>
+                        <h3>Onze leraren</h3>
                             <p>Onze leraren hebben ervaring met alle niveau's. Vanaf het eerste moment zullen zij zoveel mogelijk Spaans met u spreken. Dat is niet lastig of eng, want de leraren praten op een manier waarop u heel veel begrijpt.</p>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4"> <center><iframe src="https://www.youtube.com/embed/8umMM8VGkqo" class="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
                     </div>  
                 </article>     
                     
-                <article class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lesboeken-text">
-                            <h3 class="ons-lesmateriaal-h3" id="ons-lesmateriaal">Ons lesmateriaal</h3>
-                                <h4 class="spaanse-lessen-h4">Lesboeken</h4>
-                                <p>Wij hebben onze eigen lesboeken ontwikkeld. Hierin wordt grammatica afgewisseld met oefenstof. Uitgangspunt vormt altijd de praktijk: u krijgt steeds praktijkgerichte situaties voorgeschoteld, waarbij u uitleg krijgt over regels, maar die meteen dienen als voorbeeld voor bepaalde situaties.</p><br /> <br />
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 spaanse-lessen-text">
+                            <h3 class="ons-lesmateriaal-h3">Ons lesmateriaal</h3>
                     </div>
-                </article>    
+                </div>    
+                    <article class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 spaanse-lessen-text">
+                                <h4 class="spaanse-lessen-h4">Lesboeken</h4>
+                                <p class="lesboeken-text">Wij hebben onze eigen lesboeken ontwikkeld. Hierin wordt grammatica afgewisseld met oefenstof. Uitgangspunt vormt altijd de praktijk: u krijgt steeds praktijkgerichte situaties voorgeschoteld, waarbij u uitleg krijgt over regels, maar die meteen dienen als voorbeeld voor bepaalde situaties.</p><br /> <br />
+                        </div>
+                    </article>
                 <article class="row thumbnails">
                                     <div class="col-xs-5 col-sm-4 col-md-4 lesboeken">
-                                        <a href="assets/images/lesmateriaal-1-groot.jpg" target="_blank" class="thumbnail"><img src="assets/images/lesmateriaal-1-klein.jpg" alt="lesmateriaal beginnerscursus Spaans"></a>
+                                        <a href="assets/images/lesmateriaal-1-groot.jpg" target="_blank" class="thumbnail" alt="lesmateriaal beginnerscursus Spaans - regelmatige werkwoorden"><img src="assets/images/lesmateriaal-1-klein.jpg" alt="lesmateriaal beginnerscursus Spaans - regelmatige werkwoorden"></a>
                                     </div>
                                     <div class="col-xs-5 col-sm-4 col-md-4">
-                                        <a href="assets/images/lesmateriaal-2-groot.jpg" target="_blank" class="thumbnail"><img src="assets/images/lesmateriaal-2-klein.jpg" alt="lesmateriaal beginnerscursus Spaans"></a>
+                                        <a href="assets/images/lesmateriaal-2-groot.jpg" target="_blank" class="thumbnail" alt="lesmateriaal beginnerscursus Spaans - in het restaurant"><img src="assets/images/lesmateriaal-2-klein.jpg" alt="lesmateriaal beginnerscursus Spaans - in het restaurant"></a>
                                     </div>
                                     <div class="col-xs-5 col-sm-4 col-md-4 lesboeken">
-                                        <a href="assets/images/lesmateriaal-3-groot.jpg" target="_blank" class="thumbnail"><img src="assets/images/lesmateriaal-3-klein.jpg" alt="lesmateriaal beginnerscursus Spaans"></a>
+                                        <a href="assets/images/lesmateriaal-3-groot.jpg" target="_blank" class="thumbnail" alt="lesmateriaal gevorderde cursus Spaans - verleden tijd"><img src="assets/images/lesmateriaal-3-klein.jpg" alt="lesmateriaal gevorderde cursus Spaans - verleden tijd"></a>
                                     </div>
                                     <div class="col-xs-5 col-sm-4 col-md-4">
-                                        <a href="assets/images/lesmateriaal-4-groot.jpg" target="_blank" class="thumbnail"><img src="assets/images/lesmateriaal-4-klein.jpg" alt="lesmateriaal beginnerscursus Spaans"></a>
+                                        <a href="assets/images/lesmateriaal-4-groot.jpg" target="_blank" class="thumbnail" alt="lesmateriaal vergevorderde cursus Spaans - overzicht werkwoordtijden en vervoegingen"><img src="assets/images/lesmateriaal-4-klein.jpg" alt="lesmateriaal vergevorderde cursus Spaans - overzicht werkwoordtijden en vervoegingen"></a>
                                     </div>
                                    
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-4 col-md-4 spaanse-lessen-text">
-                                        <h4 class="spaanse-lessen-h4-2">Luisteroefeningen</h4>
-                                        In de lessen praten we erg veel, maar buiten de les kunt u ook gebruik maken van onze luisteroefeningen. U wordt dus veel aan Spaans blootgesteld, en uw begrip zal daardoor snel vergroten.<br />
-                                        <br />
+                                        <h4 class="spaanse-lessen-h4">Luisteroefeningen</h4>
+                                        <p>In de lessen praten we erg veel, maar buiten de les kunt u ook gebruik maken van onze luisteroefeningen. U wordt dus veel aan Spaans blootgesteld, en uw begrip zal daardoor snel vergroten.</p><br />
+                                        
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                     <audio controls class="audio">
                                         <source src="assets/audio/rik.m4a" type="audio/mpeg" >
                                         <source src="assets/audio/rik.ogg" type="audio/ogg">
-                                        Your browser does not support the audio element.
+                                        Uw browser ondersteunt dit audio element niet.
                                     </audio>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-4 col-md-4 spaanse-lessen-text">
-                                    <h4 class="spaanse-lessen-h4-2">Online oefeningen</h4>
-                                    Via de app Memrise, krijgt u toegang tot online oefeningen en vocabulaire die we per hoofdstuk uit het lesboek voor u hebben samengesteld.
+                                    <h4 class="spaanse-lessen-h4">Online oefeningen</h4>
+                                    <p>Via de app Memrise, krijgt u toegang tot online oefeningen en vocabulaire die we per hoofdstuk uit het lesboek voor u hebben samengesteld.</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-6">    
                                         <a href="https://www.memrise.com/course/1441890/quebueno-a11-unidad-4-como-se-escribe/" target="_blank" class="link-memrise">Hier treft u een voorbeeld van les 4.</a>
@@ -140,32 +143,34 @@
             
             <aside class="hidden-xs hidden-sm col-md-4 col-lg-4 section-column" id="sidebar">
             <div class="row">
-                <h3 class="where-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Waar</span></h3>
-                    <div class="where-text"><u>Breda Business Park - Lijndonk 4</u><br>
+                
+                    <h3 class="where-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Waar</span></h3>
+                    <p class="where-text"><u>Breda Business Park - Lijndonk 4</u><br>
                     Dit moderne bedrijfspand is prima bereikbaar, er is altijd gratis parkeergelegenheid en we beschikken hier over een eigen lesruimte, voorzien van alle faciliteiten.
-                    </div>
-                <h3 class="when-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Wanneer</span></h3>
-                    <div class="when-text"><u>Maandag t/m vrijdag - overdag en 's avonds.</u><br>
+                    </p>
+                    <h3 class="when-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Wanneer</span></h3>
+                    <p class="when-text"><u>Maandag t/m vrijdag - overdag en 's avonds.</u><br>
                     De groepslessen voor het eerste kwartaal van 2019 zijn al van start gegaan. Vraag ons naar de mogelijkheid in te stromen, privélessen en nieuwe cursussen.
-                    </div>
-                <h3 class="groups-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Groepen</span></h3>
-                    <div class="groups-text"><u>Alleen cursisten met hetzelfde niveau in een groep</u>
+                    </p>
+                    <h3 class="groups-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Groepen</span></h3>
+                    <p class="groups-text"><u>Alleen cursisten met hetzelfde niveau in een groep</u>
                     <ul>
                         <li>Een cursus bestaat uit 12 lessen van 75 minuten</li>
                         <li>Al met 4 cursisten gaan de groepen van start! </li>
                         <li>Maximale groepsgrootte is 10</li> 
                     </ul>
-                    </div>
-                <h3 class="prices-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Prijzen</span></h3>
-                    <div class="prices-text"><u>Inclusief lesmateriaal!</u>
-                        <ul>
-                        <li>Groepscursus: € 198</li>
-                        <li>Privéles met 2 personen: € 20 p.p. / lesuur</li>
-                        <li>Privéles: € 30 per lesuur</li>
-                        </ul>
-                    </div>
+                    </p>
+                    <h3 class="prices-h3"><span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span> <span style="position: relative; left: 5px;">Prijzen</span></h3>
+                    <p class="prices-text"><u>Inclusief lesmateriaal!</u>
+                    <ul>
+                    <li>Groepscursus: € 198</li>
+                    <li>Privéles met 2 personen: € 20 p.p. / lesuur</li>
+                    <li>Privéles: € 30 per lesuur</li>
+                    </ul>
+                    </p>
+                
             </div>
-        </aside>    
+        </aside>
         
         </div>
     </section>

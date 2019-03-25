@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* ----------------------------------------------------------- Header */
+
 
 #header {
     min-height: 100px;
@@ -28,7 +30,7 @@
 
 .menuitem a {         /* clickable area */
      width: 100%;    
-     text-decoration: none; /*remove underscore */
+     text-decoration: none; 
      color: #484C4F;
      font-size: 18px;
      height: 100px;
@@ -154,120 +156,7 @@
   
 }
 
-/* ----------------------------------------------------------- Body */
-
-section {
-    margin: 0;
-    padding: 0;
-
-}
-
-/*without this there is empty space on left and right margin - it moves button out of center though*/
-.container-fluid { 
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-/* this deletes the space in the md-8 sidebar */
-.row {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-
-.row-table {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-}
-
-.section-column {
-    padding: 0; 
-    display: table-cell; 
-    float: none;
-    }     
-/*    table cell within the column, that gives evenly sized columns in terms of height */ 
-
-#main {
-    padding-right: 0; /* padding right makes right scroll in iPhone5 */
-    padding-bottom: 30px;
-}
-
-#section-call-to-action {
-    position: absolute;
-    z-index: 1;
-}
-
-.trial-lesson {
-    text-decoration: none;
-    text-align: center;
-    color: #484C4F;
-    font-family: "Exo", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.trial-lesson:hover { 
-  text-decoration: none;
-  color: #e91529;
-  transition: 0.8s ease-in-out;
-} 
-
-.text {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #484C4F; 
-}
-
-.index-text a {
-    text-decoration: none; /*remove underscore */
-     color: #484C4F;
-}     
-
-.index-text-top {
-    padding-left: 45px;
-    margin: auto;
-    max-width: 550px;
-    margin-top: 75px;
-}
-
-
-.index-text {
-    padding-left: 45px;
-    margin: auto;
-    max-width: 550px;
-    margin-top: 15px;
-}
-
-
-.picture-top {
-    margin: 0 24%;
-    margin-top: 20px;
-}
-
-.picture-middle {
-    margin: 0 24%;
-    margin-top: 20px;
-}
-
-
-.picture-bottom {
-    margin: 0 24%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-
-#spanish-school-text {
-    padding-top: 30px;
-    padding-right: 0px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-}
-
-
+/* ----------------------------------------------------------- Sidebar */
 #sidebar {
     background-color: #484C4F; 
     font-family: "Roboto", sans-serif;
@@ -320,13 +209,145 @@ section {
     padding-left: 45px;
 }
 
-        /*-------------------------------------*/
-        .spanish-school-image {
-            margin: 0 24%;
-            margin-top: 20px;
-        }
+
         
-        
+/* ----------------------------------------------------------- Body General */
+
+section {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*without this there is empty space on left and right margin - it moves button out of center though*/
+.container-fluid { 
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* this deletes the space in the md-8 sidebar */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.row-table {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.section-column {
+    padding: 0; 
+    display: table-cell; 
+    float: none;
+    }     
+/*    table cell within the column, that gives evenly sized columns in terms of height */ 
+
+#main {
+    padding-right: 0; /* padding right makes right scroll in iPhone5 */
+    padding-bottom: 30px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484C4F; 
+}
+
+/* ----------------------------------------------------------- Call to action */
+
+#section-call-to-action {
+    position: absolute;
+    z-index: 1;
+}
+
+.trial-lesson {
+    text-decoration: none;
+    text-align: center;
+    color: #484C4F;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trial-lesson:hover { 
+  text-decoration: none;
+  color: #e91529;
+  transition: 0.8s ease-in-out;
+} 
+
+.free-lesson {
+    display: none;
+}
+
+.fa-gift {
+    display: table;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+}
+
+.free-lesson:hover {
+  color: #e91529;
+  transition: 0.4s ease-in-out;
+  
+}
+
+/* ----------------------------------------------------------- Index */
+
+.index-text a {
+    text-decoration: none; /*remove underscore */
+     color: #484C4F;
+}     
+
+.index-text-top {
+    padding-left: 45px;
+    margin: auto;
+    max-width: 550px;
+    margin-top: 75px;
+}
+
+
+.index-text {
+    padding-left: 45px;
+    margin: auto;
+    max-width: 550px;
+    margin-top: 15px;
+}
+
+
+.picture-top {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+.picture-middle {
+    margin: 0 24%;
+    margin-top: 20px;
+}
+
+
+.picture-bottom {
+    margin: 0 24%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#spanish-school-text {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+
+
         
 /* ----------------------------------------------------------- Contact */
 
@@ -377,7 +398,7 @@ section {
 
 
 .ons-lesmateriaal-h3 {
-     margin-top: 20px;
+     margin-top: 40px;
 }
 
 .video {
@@ -388,19 +409,9 @@ section {
 
 
 .spaanse-lessen-h4 {
-    padding-top: 20px;
-}
-
-.spaanse-lessen-h4-2 {
     padding-top: 5px;
 }
 
-.lesboeken-text {
-    padding-left: 30px;
-    margin: auto;
-    max-width: 550px;
-    margin-top: 10px;
-}
 
 .lesboeken {
     margin-left: 8%;
@@ -504,27 +515,6 @@ a .thumbnail{
     font-size: 14px;
     font-weight: 400;
     color: #484C4F; 
-}
-
-
-/* ----------------------------------------------------------- Test */
-
-.free-lesson {
-    display: none;
-}
-
-.fa-gift {
-    display: table;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 26px;
-}
-
-.free-lesson:hover {
-  color: #e91529;
-  transition: 0.4s ease-in-out;
-  
 }
 
 
