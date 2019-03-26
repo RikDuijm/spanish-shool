@@ -10,7 +10,7 @@ We've chosen for the yellow and red colors with the Spanish flag in mind, which 
 
 
 ## Functionality and Features
-The website is fully responsive and mobile first, on desktop and larger screen sizes there is additional content (in a side bar). However this content is also available on one of the sub-pages, so mobile screen users can also find all the info. The navigation is functional and there is one form. This form is not functional yet, since we didn't learn so far how to implement this. There are links to social media. Facebook and YouTube accounts already exist, I still have to create a Instagram account. 
+The website is fully responsive and mobile first, on desktop and larger screen sizes there is additional content (in a side bar). On tablets this information is showed in a footer. However this content is also available on one of the sub-pages, so mobile screen users can also find all the info. The navigation is functional and there is one form. This form is not functional yet, since we didn't learn so far how to implement this. There are links to social media. Facebook and YouTube accounts already exist, I still have to create a Instagram account. 
 The website uses audio and video, in which teachers present themselves. Some students are actually quite nervous about contacting us, and about studying Spanish, so we feel that the use of simple speech and a friendly face can help reducing the threshold. 
 
 ### Features Left to Implement
@@ -42,15 +42,30 @@ Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 6/7/8, iPhone 6/7/8, iPhone X, iPad, iPad
 
 The form is not functional yet. A required attribute is added to the name, telephone and email field.  
 
-Testing in other browsers than Chrome I encountered several issues:
+Testing in different browsers I encountered several issues:
+
+- Chrome: on the desktop screen there is a slight white space on the right side. I only see this in Chrome and unfortunately cannot find a way to solve this. 
 - Firefox: the link in button "Vraag gratis proefles aan" didn't work. Solved this by placing the anchor-tag outside the button instead of inside. 
 - Firefox: the audio-file wasn't supported. I've converted the file (m4a) to OGG to make it work. 
 - IE / Edge: I had some issues with the whole composition of the website. 
 It took me a while to fix this and think it would have been less time consuming to test in the various browsers from the start. Lesson learned!
 
-
 ## Deployment
 Website was coded in Cloud 9 IDE, and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. It is deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. The website can be found at: https://rikduijm.github.io/spanish-school/. 
+
+## Work based on other code
+The code for the Menu was re-used from the previous Resume Mini Project. I had some mixed feelings about this, but wanted to use the colours of Spain’s flag for the reasons mentioned above. 
+I didn’t want to use these colours to prominent in the main content, fearing this would make the page too juvenile. The Menu was therefore for me a logical choice. The code I re-used was from .menuitem, . menuitem a and .menuitem a i in the CSS.
+I changed some of the code, so that hovering over it, the icons and text of the links change colour. 
+
+I also used the code from this Mini Project to give the columns of the main content and sidebar on desktop screen the same height. Actually, I saw the same trick explained on several websites, including w3schools, a website I frequently used. I used this website and others, searching also on Google, to see how things might work, but this was about analysing the possibilities, not about using code 1 on 1. 
+The only thing others didn’t mention was the float in .section-column. Actually this float caused the above described problem in IE / Edge. But without this, there wasn’t a way I could get the same height. 
+
+## What changed after user design experience (UDX) phase
+I had made wireframes, but soon noticed that I had been too optimistic about the amount of content that could be placed horizontally next to each other. On mobile screen, I planned for text and pic to be placed next to each other, and on tablet and desktop screen for four colums (2 texts, 2 pics). This gave a very busy, overwhelming impression, so I changed this.
+ 
+I was struggling a bit with the fact that I wanted to create 5 pages. Because of my choice to use menu buttons, on mobile screen I had to use even numbers, 2 on a row. So I chose to build a separate button for our contact form immediately below the menu, which visually emphasizes the option of getting a free trial lesson more than when it would do within the menu. 
+On desktop screens I decided to place an additional button on the right 1/3 of the screen. On tablets there was no room for that, and I originally planned this in the footer, but soon realised this was a terrible idea. So, as with the mobile screen I decided to build a separate button right below the menu. In the end, I also did this on desktop screen. 
 
 ## Credits
 
